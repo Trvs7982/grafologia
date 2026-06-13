@@ -1,0 +1,60 @@
+:root {
+  --text: #403b48;
+  --text-h: #10101a;
+  --bg: #eef2f9;
+  --border: #d7d9e0;
+  --accent: #3f5ccf;
+  --accent-soft: #c7d6ff;
+  --shadow: rgba(13, 34, 70, 0.14) 0 18px 40px -20px;
+  --shadow-strong: rgba(13, 34, 70, 0.18) 0 24px 60px -20px;
+  --sans: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --heading: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+
+  font: 18px/1.75 var(--sans);
+  color: var(--text);
+  background: radial-gradient(circle at top left, rgba(63, 92, 207, 0.16), transparent 24%),
+    radial-gradient(circle at bottom right, rgba(63, 92, 207, 0.14), transparent 22%),
+    var(--bg);
+  min-height: 100vh;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@media (max-width: 1024px) {
+  :root {
+    font-size: 16px;
+  }
+}
+
+body {
+  margin: 0;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--heading);
+  color: var(--text-h);
+  margin: 0;
+}
+
+h1 {
+  line-height: 1.02;
+}
+
+p,
+ul {
+  margin: 0;
+}
+
+ul {
+  padding-left: 1rem;
+}
