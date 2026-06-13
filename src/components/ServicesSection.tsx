@@ -3,33 +3,33 @@ import ServiceCard from './ServiceCard'
 
 const services = [
   {
-    title: 'Dictámenes periciales de autenticidad de firmas',
+    title: 'Dictámenes de autenticidad de firmas',
     description:
-      'Análisis comparativo de firmas para procesos judiciales, notariales y civiles.',
+      'Análisis comparativo técnico de firmas cuestionadas para procesos judiciales, notariales y civiles.',
   },
   {
     title: 'Identificación de autoría de manuscritos',
-    description: 'Determinación de si un texto fue escrito por una persona específica.',
+    description: 'Determinación científica de si un texto manuscrito fue escrito por una persona específica.',
   },
   {
     title: 'Detección de falsificaciones y alteraciones',
     description:
-      'Identificación de borrados, sobreescrituras, montajes y simulaciones de escritura.',
+      'Identificación de borrados, sobreescrituras, montajes, simulaciones y otras adulteraciones documentales.',
   },
   {
-    title: 'Análisis de documentos',
-    description: 'Cartas, notas, cheques, testamentos y contratos.',
+    title: 'Análisis forense de documentos',
+    description: 'Estudio técnico de cartas, notas, cheques, testamentos, contratos y otros documentos.',
   },
   {
-    title: 'Ratificación en estrados',
-    description: 'Sustentación oral y escrita del dictamen ante jueces y tribunales.',
+    title: 'Ratificación en estrados judiciales',
+    description: 'Sustentación oral y escrita del dictamen pericial ante jueces, magistrados y tribunales.',
   },
 ]
 
 export default function ServicesSection() {
   return (
     <section className="section section-services">
-      <SectionHeader title="¿Qué ofrezco?" subtitle="Servicios" />
+      <SectionHeader title="Servicios periciales" subtitle="Grafología forense" />
       <div className="service-grid">
         {services.map((service) => (
           <ServiceCard

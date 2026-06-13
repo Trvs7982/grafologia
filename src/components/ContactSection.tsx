@@ -1,33 +1,36 @@
+import SectionHeader from './SectionHeader'
+
 export default function ContactSection() {
   return (
     <footer className="contact-section">
       <div className="contact-panel">
-        <span className="contact-label">Contacto</span>
-        <h2>Comunícate con perito grafóloga</h2>
-        <p>
-          Tel: <strong>
+        <SectionHeader title="Comunicación directa" subtitle="Contacto" />
+        <ul className="contact-list">
+          <li>
+            <span className="contact-item-label">Teléfono / WhatsApp</span>
             <a href="https://wa.me/573007520807" target="_blank" rel="noreferrer noopener">
-              300 752 0807
+              +57 300 752 0807
             </a>
-          </strong>
-        </p>
-        <p>
-          Email: <strong>
-            <a href="mailto:coni6750arroayahoo.com.mx" target="_blank" rel="noreferrer noopener">
-              coni6750arroayahoo.com.mx
+          </li>
+          <li>
+            <span className="contact-item-label">Correo electrónico</span>
+            <a href="mailto:coni6750@yahoo.com.mx" target="_blank" rel="noreferrer noopener">
+              coni6750@yahoo.com.mx
             </a>
-          </strong>
-        </p>
-        <p>
-          Ubicación: <strong>Pereira, Risaralda</strong>
-        </p>
-        <p>
-          Atención en todo el Eje Cafetero y a nivel nacional.
-        </p>
+          </li>
+          <li>
+            <span className="contact-item-label">Ubicación</span>
+            <span>Pereira, Risaralda</span>
+          </li>
+          <li>
+            <span className="contact-item-label">Cobertura</span>
+            <span>Eje Cafetero y todo el territorio nacional</span>
+          </li>
+        </ul>
       </div>
       <div className="contact-note">
         <p>
-          La escritura no miente. Si necesitas certeza documental, cuento con el respaldo técnico para demostrarlo.
+          La escritura no miente. Si requiere certeza documental para un proceso judicial o pericial, cuento con el respaldo técnico y la experiencia para demostrarlo.
         </p>
       </div>
     </footer>
