@@ -8,7 +8,7 @@ export default function ContactSection() {
         <ul className="contact-list">
           <li>
             <span className="contact-item-label">Teléfono / WhatsApp</span>
-            <a href="https://wa.me/573007520807" target="_blank" rel="noreferrer noopener">
+            <a href="https://wa.me/573007620807" target="_blank" rel="noreferrer noopener">
               +57 300 762 0807
             </a>
           </li>
