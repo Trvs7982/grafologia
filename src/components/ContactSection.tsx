@@ -9,7 +9,7 @@ export default function ContactSection() {
           <li>
             <span className="contact-item-label">Teléfono / WhatsApp</span>
             <a href="https://wa.me/573007520807" target="_blank" rel="noreferrer noopener">
-              +57 300 752 0807
+              +57 300 762 0807
             </a>
           </li>
           <li>
